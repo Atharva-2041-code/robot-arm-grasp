@@ -1,0 +1,32 @@
+# Version 2
+/[vV]2/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+.robot_venv/
+*_venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Runtime logs
+logs/
+*.log
